@@ -90,7 +90,7 @@ class BubbleSpecialThree extends StatelessWidget {
                 Padding(
                   padding: stateTick
                       ? const EdgeInsets.only(left: 4, right: 20)
-                      : const EdgeInsets.only(left: 0, right: 0),
+                      : const EdgeInsets.only(left: 2, right: 2),
                   child: text,
                 ),
                 stateIcon != null && stateTick
