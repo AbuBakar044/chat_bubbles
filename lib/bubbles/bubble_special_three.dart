@@ -69,7 +69,7 @@ class BubbleSpecialThree extends StatelessWidget {
     return Align(
       alignment: isSender ? Alignment.topRight : Alignment.topLeft,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+        padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 2),
         child: CustomPaint(
           painter: SpecialChatBubbleThree(
               color: color,
