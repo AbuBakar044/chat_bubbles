@@ -80,19 +80,20 @@ class BubbleSpecialThree extends StatelessWidget {
                 BoxConstraints(
                   maxWidth: MediaQuery.of(context).size.width * .7,
                 ),
-            margin: isSender
-                ? stateTick
-                    ? const EdgeInsets.fromLTRB(7, 7, 14, 7)
-                    : const EdgeInsets.fromLTRB(7, 7, 10, 7)
-                : const EdgeInsets.fromLTRB(10, 7, 7, 7),
+            // margin: isSender
+            //     ? stateTick
+            //         ? const EdgeInsets.fromLTRB(7, 7, 14, 7)
+            //         : const EdgeInsets.fromLTRB(7, 7, 10, 7)
+            //     : const EdgeInsets.fromLTRB(10, 7, 7, 7),
             child: Stack(
               children: <Widget>[
-                Padding(
-                  padding: stateTick
-                      ? const EdgeInsets.only(left: 4, right: 20)
-                      : const EdgeInsets.only(left: 2, right: 2),
-                  child: text,
-                ),
+                // Padding(
+                //   padding: stateTick
+                //       ? const EdgeInsets.only(left: 4, right: 20)
+                //       : const EdgeInsets.only(left: 2, right: 2),
+                //   child: text,
+                // ),
+                text,
                 stateIcon != null && stateTick
                     ? Positioned(
                         bottom: 0,
